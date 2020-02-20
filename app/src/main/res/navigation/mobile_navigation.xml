@@ -3,18 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_insurance">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_insurance"
         android:name="com.delivriko.askdoctorstask.ui.InsuranceFragment"
         android:label="Insurance"
         tools:layout="@layout/fragment_insurance" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_doctors"
         android:name="com.delivriko.askdoctorstask.ui.AskDoctorsFragment"
         android:label="Ask doctors"
         tools:layout="@layout/fragment_ask_doctors" />
-
 </navigation>

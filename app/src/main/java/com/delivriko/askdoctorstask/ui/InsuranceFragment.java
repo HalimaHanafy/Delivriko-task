@@ -24,10 +24,6 @@ public class InsuranceFragment extends Fragment {
     private ArcMenu menu;
     private RecyclerView recyclerView;
 
-    public InsuranceFragment(RecyclerView recyclerView) {
-        this.recyclerView = recyclerView;
-    }
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_insurance, container, false);
