@@ -9,4 +9,6 @@
     <string name="menu_gallery">Gallery</string>
     <string name="type_your_message">Type your message</string>
     <string name="chat">Chat</string>
+    <string name="insurance">Insurance</string>
+    <string name="ask_doctors">Ask doctors</string>
 </resources>

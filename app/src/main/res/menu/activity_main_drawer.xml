@@ -7,11 +7,11 @@
         <item
             android:id="@+id/nav_insurance"
             android:icon="@drawable/logo"
-            android:title="Insurance" />
+            android:title="@string/insurance" />
         <item
             android:id="@+id/nav_doctors"
             android:icon="@drawable/logo"
-            android:title="Ask doctors" />
+            android:title="@string/ask_doctors" />
 
     </group>
 
